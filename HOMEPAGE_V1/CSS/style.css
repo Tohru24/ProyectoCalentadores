@@ -104,7 +104,7 @@ header{
   font-size: 15px;
 }
 .search_bar input{
-  width: 70%;
+  width: 55%;
   height: 40px;
   padding-left: 10px;
   border-radius: 30px;
@@ -171,12 +171,58 @@ header{
   height: 17%;
 }
 .background_image_class img{
+  margin-top: -2em;
+  margin-left: -18em;
   /* Establece el ancho y alto del contenedor */
-  width: 800px;
-  height: 400px;
+  width: 600px;
+  height: 300px;
   /* Ajusta el tamaño de la imagen de fondo */
   background-size: cover;
+
 }
+.info_main_catalog {
+  font: normal normal normal 20px/27px Nirmala UI;
+  width: 100%; /* Cambié esto a 100% */
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Para distribuir los elementos horizontalmente */
+}
+
+.info_main_catalog div {
+  padding: 2em;
+  
+}
+
+.button_info{
+  margin: 1.5em;
+  width: auto;
+  background: #000000 0% 0% no-repeat padding-box;
+  border-top-right-radius: 67px;
+  border-bottom-right-radius: 67px;
+}
+
+.button_info1{
+  margin: 1.5em;
+  width: auto;
+  height: 80px;
+  background: #B20000 0% 0% no-repeat padding-box;
+  border-top-left-radius: 67px;
+  border-bottom-left-radius: 67px;
+}
+.contenedor_button_info{
+  font: normal normal bold 25px/33px Nirmala UI;
+  color: #FFFEFE;
+  display: flex;
+}
+.contenedor_button_info span{
+  text-align: left;
+
+}
+
+
+
+
 /**
 .main_contain a{
   position: absolute;
