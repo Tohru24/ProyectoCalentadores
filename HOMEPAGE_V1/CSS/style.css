@@ -194,12 +194,20 @@ header{
   
 }
 
+.info_left {
+  left: 0;
+}
+
+
 .button_info{
-  margin: 1.5em;
-  width: auto;
+  padding: 0em;
+  margin: 1em;
+  height: 2.55em;
   background: #000000 0% 0% no-repeat padding-box;
   border-top-right-radius: 67px;
   border-bottom-right-radius: 67px;
+  text-align: center;
+
 }
 
 .button_info1{
@@ -210,32 +218,24 @@ header{
   border-top-left-radius: 67px;
   border-bottom-left-radius: 67px;
 }
-.contenedor_button_info{
+.contenedor_button_info {
   font: normal normal bold 25px/33px Nirmala UI;
   color: #FFFEFE;
   display: flex;
-}
-.contenedor_button_info span{
-  text-align: left;
-
+  align-items: center;
+  top: -10em; /* Ajusta este valor según tu preferencia */
 }
 
-
-
-
-/**
-.main_contain a{
-  position: absolute;
-  top: 60%;
-  left: 23.65%;
-  text-decoration: none;
-  padding: 0.4em;
-  width: auto;
-  background: #B20000 0% 0% no-repeat padding-box;
-  border-radius: 24px;
-  font: normal normal bold 22px/25px Nirmala UI;
-  letter-spacing: 0px;
-  color: #F5F5F5;
-  
+.button_info div{
+  padding: 0em;
+  margin: 0em;
 }
-**/
+
+.contenedor_button_info_left img{
+  padding: 0.5em;
+}
+.contenedor_button_info_rigth p {
+  margin: 0.1em;
+  font-size: 1.2em;
+}
+
