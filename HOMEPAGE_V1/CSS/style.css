@@ -195,7 +195,11 @@ header{
 }
 
 .info_left {
-  left: 0;
+  margin: 0;
+  padding: 0;
+  align-items: start;
+  text-align: left;
+
 }
 
 
@@ -207,13 +211,12 @@ header{
   border-top-right-radius: 67px;
   border-bottom-right-radius: 67px;
   text-align: center;
-
 }
 
 .button_info1{
-  margin: 1.5em;
+  margin: 1em;
   width: auto;
-  height: 80px;
+  height: 4em;
   background: #B20000 0% 0% no-repeat padding-box;
   border-top-left-radius: 67px;
   border-bottom-left-radius: 67px;
@@ -239,3 +242,11 @@ header{
   font-size: 1.2em;
 }
 
+.contenedor_button_info1{
+  font: normal normal bold 25px/33px Nirmala UI;
+  color: #FFFEFE;
+  display: flex;
+  align-items: start;
+  top: -50em; /* Ajusta este valor según tu preferencia */
+
+}
